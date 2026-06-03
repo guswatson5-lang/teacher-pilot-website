@@ -63,11 +63,31 @@ export default function Footer() {
           style={{ borderColor: "rgba(255,255,255,0.05)" }}
         />
 
-        {/* Copyright */}
-        <div className="text-center">
+        {/* Copyright + legal links */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs" style={{ color: "rgba(250,250,248,0.25)" }}>
             © 2026 Teacher Pilot. Built for Australian educators.
           </p>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/privacy"
+              className="text-xs transition-colors duration-300"
+              style={{ color: "rgba(250,250,248,0.25)" }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#FAFAF8")}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "rgba(250,250,248,0.25)")}
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/terms"
+              className="text-xs transition-colors duration-300"
+              style={{ color: "rgba(250,250,248,0.25)" }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#FAFAF8")}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "rgba(250,250,248,0.25)")}
+            >
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
