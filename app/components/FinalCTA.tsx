@@ -33,7 +33,7 @@ export default function FinalCTA() {
           backgroundImage: "url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920&q=80')",
           backgroundSize: "cover",
           backgroundPosition: "center 60%",
-          opacity: 0.12,
+          opacity: 0.06,
           filter: "blur(2px)",
         }}
       />
@@ -43,7 +43,7 @@ export default function FinalCTA() {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse 80% 80% at 50% 50%, rgba(15,15,15,0.4) 0%, rgba(6,6,6,0.95) 100%)",
+            "radial-gradient(ellipse 80% 80% at 50% 50%, rgba(15,15,15,0.75) 0%, rgba(6,6,6,0.95) 100%)",
         }}
       />
 
