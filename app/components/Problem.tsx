@@ -13,7 +13,7 @@ export default function Problem() {
         style={{
           width: "60%",
           height: "1px",
-          background: "linear-gradient(to right, transparent, rgba(245,158,11,0.2), transparent)",
+          background: "linear-gradient(to right, transparent, rgba(6,182,212,0.2), transparent)",
         }}
       />
 
@@ -22,7 +22,7 @@ export default function Problem() {
           <div className="text-center mb-20">
             <p
               className="text-sm font-semibold tracking-widest uppercase mb-6"
-              style={{ color: "#F59E0B" }}
+              style={{ color: "#06B6D4" }}
             >
               The reality
             </p>
@@ -53,7 +53,7 @@ export default function Problem() {
           <ScrollReveal delay={0}>
             <div
               className="glass rounded-2xl p-10 text-center"
-              style={{ border: "1px solid rgba(245,158,11,0.1)" }}
+              style={{ border: "1px solid rgba(6,182,212,0.1)" }}
             >
               <StatCounter target={8} suffix="+" label="hours per week on admin work" />
             </div>
@@ -62,7 +62,7 @@ export default function Problem() {
           <ScrollReveal delay={0.15}>
             <div
               className="glass rounded-2xl p-10 text-center"
-              style={{ border: "1px solid rgba(245,158,11,0.1)" }}
+              style={{ border: "1px solid rgba(6,182,212,0.1)" }}
             >
               <StatCounter target={25} label="students per class to report on" />
             </div>
@@ -71,7 +71,7 @@ export default function Problem() {
           <ScrollReveal delay={0.3}>
             <div
               className="glass rounded-2xl p-10 text-center"
-              style={{ border: "1px solid rgba(245,158,11,0.1)" }}
+              style={{ border: "1px solid rgba(6,182,212,0.1)" }}
             >
               <StatCounter target={40} label="school weeks every year" />
             </div>

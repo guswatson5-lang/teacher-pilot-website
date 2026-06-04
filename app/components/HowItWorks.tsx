@@ -51,7 +51,7 @@ export default function HowItWorks() {
           <div className="text-center mb-20">
             <p
               className="text-sm font-semibold tracking-widest uppercase mb-4"
-              style={{ color: "#F59E0B" }}
+              style={{ color: "#06B6D4" }}
             >
               How it works
             </p>
@@ -74,7 +74,7 @@ export default function HowItWorks() {
           <div
             className="hidden md:block absolute top-16 left-[calc(16.67%+32px)] right-[calc(16.67%+32px)] h-px"
             style={{
-              background: "linear-gradient(to right, transparent, rgba(245,158,11,0.3), rgba(245,158,11,0.3), transparent)",
+              background: "linear-gradient(to right, transparent, rgba(6,182,212,0.3), rgba(6,182,212,0.3), transparent)",
             }}
           />
 
@@ -86,15 +86,15 @@ export default function HowItWorks() {
                   <div
                     className="relative w-16 h-16 rounded-2xl flex items-center justify-center mb-6 z-10"
                     style={{
-                      background: "rgba(245,158,11,0.1)",
-                      border: "1px solid rgba(245,158,11,0.25)",
-                      color: "#F59E0B",
+                      background: "rgba(6,182,212,0.1)",
+                      border: "1px solid rgba(6,182,212,0.25)",
+                      color: "#06B6D4",
                     }}
                   >
                     {step.icon}
                     <span
                       className="absolute -top-2 -right-2 text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center"
-                      style={{ background: "#F59E0B", color: "#0F0F0F" }}
+                      style={{ background: "#06B6D4", color: "#0F0F0F" }}
                     >
                       {i + 1}
                     </span>

@@ -28,11 +28,11 @@ export default function BulkMarking() {
       className="relative py-40 overflow-hidden"
       style={{ background: "#0F0F0F" }}
     >
-      {/* Deep amber gradient background */}
+      {/* Deep cyan gradient background */}
       <div
         className="absolute inset-0"
         style={{
-          background: "linear-gradient(135deg, #1a0d00 0%, #0F0F0F 40%, #0F0F0F 60%, #1a0800 100%)",
+          background: "linear-gradient(135deg, #001820 0%, #0F0F0F 40%, #0F0F0F 60%, #001820 100%)",
         }}
       />
 
@@ -41,7 +41,7 @@ export default function BulkMarking() {
         ref={bgRef}
         className="absolute inset-[-5%] will-change-transform pointer-events-none"
         style={{
-          background: "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(245,158,11,0.06) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(6,182,212,0.06) 0%, transparent 70%)",
         }}
       />
 
@@ -49,7 +49,7 @@ export default function BulkMarking() {
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.03]"
         style={{
-          backgroundImage: `linear-gradient(rgba(245,158,11,1) 1px, transparent 1px), linear-gradient(90deg, rgba(245,158,11,1) 1px, transparent 1px)`,
+          backgroundImage: `linear-gradient(rgba(6,182,212,1) 1px, transparent 1px), linear-gradient(90deg, rgba(6,182,212,1) 1px, transparent 1px)`,
           backgroundSize: "80px 80px",
         }}
       />
@@ -62,7 +62,7 @@ export default function BulkMarking() {
         <ScrollReveal>
           <p
             className="text-sm font-semibold tracking-widest uppercase mb-6"
-            style={{ color: "#F59E0B" }}
+            style={{ color: "#06B6D4" }}
           >
             Bulk marking
           </p>
@@ -106,15 +106,15 @@ export default function BulkMarking() {
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-base px-8 py-4 rounded-full transition-all duration-300"
-              style={{ background: "#F59E0B", color: "#0F0F0F" }}
+              style={{ background: "#06B6D4", color: "#0F0F0F" }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLAnchorElement;
-                el.style.background = "#FCD34D";
+                el.style.background = "#67E8F9";
                 el.style.transform = "scale(1.05)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLAnchorElement;
-                el.style.background = "#F59E0B";
+                el.style.background = "#06B6D4";
                 el.style.transform = "scale(1)";
               }}
             >
@@ -127,18 +127,18 @@ export default function BulkMarking() {
       {/* Depth dividers */}
       <div
         className="absolute left-6 top-1/2 -translate-y-1/2 pointer-events-none hidden lg:flex flex-col items-center gap-3"
-        style={{ color: "rgba(245,158,11,0.2)" }}
+        style={{ color: "rgba(6,182,212,0.2)" }}
       >
         {[...Array(8)].map((_, i) => (
-          <div key={i} className="w-px" style={{ height: "20px", background: "rgba(245,158,11,0.15)" }} />
+          <div key={i} className="w-px" style={{ height: "20px", background: "rgba(6,182,212,0.15)" }} />
         ))}
       </div>
       <div
         className="absolute right-6 top-1/2 -translate-y-1/2 pointer-events-none hidden lg:flex flex-col items-center gap-3"
-        style={{ color: "rgba(245,158,11,0.2)" }}
+        style={{ color: "rgba(6,182,212,0.2)" }}
       >
         {[...Array(8)].map((_, i) => (
-          <div key={i} className="w-px" style={{ height: "20px", background: "rgba(245,158,11,0.15)" }} />
+          <div key={i} className="w-px" style={{ height: "20px", background: "rgba(6,182,212,0.15)" }} />
         ))}
       </div>
     </section>

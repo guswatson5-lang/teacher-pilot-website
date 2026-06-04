@@ -71,7 +71,7 @@ export default function Pricing() {
           <div className="text-center mb-16">
             <p
               className="text-sm font-semibold tracking-widest uppercase mb-4"
-              style={{ color: "#F59E0B" }}
+              style={{ color: "#06B6D4" }}
             >
               Pricing
             </p>
@@ -95,17 +95,17 @@ export default function Pricing() {
               <div
                 className="pricing-card rounded-2xl p-8 relative"
                 style={{
-                  background: plan.highlight ? "rgba(245,158,11,0.08)" : "#141414",
+                  background: plan.highlight ? "rgba(6,182,212,0.08)" : "#141414",
                   border: plan.highlight
-                    ? "1px solid rgba(245,158,11,0.4)"
+                    ? "1px solid rgba(6,182,212,0.4)"
                     : "1px solid rgba(255,255,255,0.06)",
-                  boxShadow: plan.highlight ? "0 0 60px rgba(245,158,11,0.1)" : "none",
+                  boxShadow: plan.highlight ? "0 0 60px rgba(6,182,212,0.1)" : "none",
                 }}
               >
                 {plan.badge && (
                   <div
                     className="absolute -top-3 left-1/2 -translate-x-1/2 text-xs font-bold px-4 py-1 rounded-full whitespace-nowrap"
-                    style={{ background: "#F59E0B", color: "#0F0F0F" }}
+                    style={{ background: "#06B6D4", color: "#0F0F0F" }}
                   >
                     {plan.badge}
                   </div>
@@ -114,7 +114,7 @@ export default function Pricing() {
                 <div className="mb-6">
                   <h3
                     className="text-lg font-bold mb-1"
-                    style={{ color: plan.highlight ? "#F59E0B" : "#FAFAF8" }}
+                    style={{ color: plan.highlight ? "#06B6D4" : "#FAFAF8" }}
                   >
                     {plan.name}
                   </h3>
@@ -142,7 +142,7 @@ export default function Pricing() {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="#F59E0B"
+                        stroke="#06B6D4"
                         strokeWidth="2"
                         className="mt-0.5 flex-shrink-0"
                       >
@@ -158,12 +158,12 @@ export default function Pricing() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center font-semibold text-sm py-3 rounded-xl transition-all duration-300"
-                  style={{ background: "#F59E0B", color: "#0F0F0F" }}
+                  style={{ background: "#06B6D4", color: "#0F0F0F" }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLAnchorElement).style.background = "#FCD34D";
+                    (e.currentTarget as HTMLAnchorElement).style.background = "#67E8F9";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLAnchorElement).style.background = "#F59E0B";
+                    (e.currentTarget as HTMLAnchorElement).style.background = "#06B6D4";
                   }}
                 >
                   {plan.cta}

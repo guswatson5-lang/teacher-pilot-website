@@ -51,7 +51,7 @@ export default function Hero() {
         style={{
           width: "80%",
           height: "40%",
-          background: "radial-gradient(ellipse at bottom, rgba(245,158,11,0.08) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse at bottom, rgba(6,182,212,0.08) 0%, transparent 70%)",
         }}
       />
 
@@ -61,15 +61,15 @@ export default function Hero() {
         <div
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium mb-8 opacity-0"
           style={{
-            background: "rgba(245,158,11,0.12)",
-            border: "1px solid rgba(245,158,11,0.3)",
-            color: "#F59E0B",
+            background: "rgba(6,182,212,0.12)",
+            border: "1px solid rgba(6,182,212,0.3)",
+            color: "#06B6D4",
             animation: "fadeIn 1s cubic-bezier(0.22,1,0.36,1) 0.3s forwards",
           }}
         >
           <span
             className="w-1.5 h-1.5 rounded-full"
-            style={{ background: "#F59E0B", boxShadow: "0 0 6px #F59E0B" }}
+            style={{ background: "#06B6D4", boxShadow: "0 0 6px #06B6D4" }}
           />
           Built for Australian teachers
         </div>
@@ -113,15 +113,15 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-base px-8 py-4 rounded-full transition-all duration-300 amber-glow"
-            style={{ background: "#F59E0B", color: "#0F0F0F" }}
+            style={{ background: "#06B6D4", color: "#0F0F0F" }}
             onMouseEnter={(e) => {
               const el = e.currentTarget as HTMLAnchorElement;
-              el.style.background = "#FCD34D";
+              el.style.background = "#67E8F9";
               el.style.transform = "scale(1.05)";
             }}
             onMouseLeave={(e) => {
               const el = e.currentTarget as HTMLAnchorElement;
-              el.style.background = "#F59E0B";
+              el.style.background = "#06B6D4";
               el.style.transform = "scale(1)";
             }}
           >
@@ -158,7 +158,7 @@ export default function Hero() {
         <div
           className="w-px h-12"
           style={{
-            background: "linear-gradient(to bottom, rgba(245,158,11,0.6), transparent)",
+            background: "linear-gradient(to bottom, rgba(6,182,212,0.6), transparent)",
           }}
         />
       </div>

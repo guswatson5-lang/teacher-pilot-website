@@ -60,7 +60,7 @@ export default function StatCounter({
         className="stat-number font-black leading-none mb-3"
         style={{
           fontSize: "clamp(3.5rem, 8vw, 6rem)",
-          color: "#F59E0B",
+          color: "#06B6D4",
         }}
       >
         {prefix}{count}{suffix}

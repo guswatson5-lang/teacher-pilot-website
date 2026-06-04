@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="text-xl font-bold tracking-tight" style={{ color: "#FAFAF8" }}>
-            Teacher<span style={{ color: "#F59E0B" }}>Pilot</span>
+            Teacher<span style={{ color: "#06B6D4" }}>Pilot</span>
           </span>
         </div>
         <div className="hidden md:flex items-center gap-8">
@@ -46,13 +46,13 @@ export default function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm font-semibold px-5 py-2 rounded-full transition-all duration-300"
-          style={{ background: "#F59E0B", color: "#0F0F0F" }}
+          style={{ background: "#06B6D4", color: "#0F0F0F" }}
           onMouseEnter={(e) => {
-            (e.currentTarget as HTMLAnchorElement).style.background = "#FCD34D";
+            (e.currentTarget as HTMLAnchorElement).style.background = "#67E8F9";
             (e.currentTarget as HTMLAnchorElement).style.transform = "scale(1.03)";
           }}
           onMouseLeave={(e) => {
-            (e.currentTarget as HTMLAnchorElement).style.background = "#F59E0B";
+            (e.currentTarget as HTMLAnchorElement).style.background = "#06B6D4";
             (e.currentTarget as HTMLAnchorElement).style.transform = "scale(1)";
           }}
         >

@@ -129,7 +129,7 @@ function FeatureCard({ feature, index }: { feature: typeof features[0]; index: n
           />
           <div
             className="absolute inset-0 z-[2] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-            style={{ background: "rgba(245,158,11,0.08)" }}
+            style={{ background: "rgba(6,182,212,0.08)" }}
           />
         </div>
 
@@ -137,14 +137,14 @@ function FeatureCard({ feature, index }: { feature: typeof features[0]; index: n
         <div className="p-7">
           <div
             className="inline-flex items-center justify-center w-10 h-10 rounded-xl mb-4"
-            style={{ background: "rgba(245,158,11,0.12)", color: "#F59E0B" }}
+            style={{ background: "rgba(6,182,212,0.12)", color: "#06B6D4" }}
           >
             {feature.icon}
           </div>
           <h3 className="text-lg font-bold mb-1" style={{ color: "#FAFAF8" }}>
             {feature.title}
           </h3>
-          <p className="text-sm font-medium mb-3" style={{ color: "#F59E0B" }}>
+          <p className="text-sm font-medium mb-3" style={{ color: "#06B6D4" }}>
             {feature.subtitle}
           </p>
           <p className="text-sm leading-relaxed" style={{ color: "rgba(250,250,248,0.5)" }}>
@@ -168,7 +168,7 @@ export default function Features() {
           <div className="text-center mb-16">
             <p
               className="text-sm font-semibold tracking-widest uppercase mb-4"
-              style={{ color: "#F59E0B" }}
+              style={{ color: "#06B6D4" }}
             >
               Features
             </p>

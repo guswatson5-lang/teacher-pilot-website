@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <div className="text-2xl font-black mb-2">
               <span style={{ color: "#FAFAF8" }}>Teacher</span>
-              <span style={{ color: "#F59E0B" }}>Pilot</span>
+              <span style={{ color: "#06B6D4" }}>Pilot</span>
             </div>
             <p className="text-sm" style={{ color: "rgba(250,250,248,0.35)" }}>
               Mark smarter. Plan faster. Report with confidence.

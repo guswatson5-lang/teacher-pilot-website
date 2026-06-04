@@ -11,10 +11,10 @@ const config: Config = {
       colors: {
         charcoal: "#0F0F0F",
         "warm-white": "#FAFAF8",
-        amber: {
-          DEFAULT: "#F59E0B",
-          light: "#FCD34D",
-          dark: "#D97706",
+        cyan: {
+          DEFAULT: "#06B6D4",
+          light: "#67E8F9",
+          dark: "#0891B2",
         },
       },
       fontFamily: {

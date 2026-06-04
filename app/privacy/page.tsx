@@ -18,7 +18,7 @@ export default function PrivacyPage() {
           {/* Amber accent line */}
           <div
             className="w-12 h-1 rounded-full mb-8"
-            style={{ background: "#F59E0B" }}
+            style={{ background: "#06B6D4" }}
           />
 
           <h1
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
 
           <p
             className="text-lg font-semibold mb-6"
-            style={{ color: "#F59E0B" }}
+            style={{ color: "#06B6D4" }}
           >
             Coming soon
           </p>
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
             href="/"
             className="inline-flex items-center gap-2 text-sm font-medium transition-colors duration-300"
             style={{ color: "rgba(250,250,248,0.45)" }}
-            onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#F59E0B")}
+            onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#06B6D4")}
             onMouseLeave={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "rgba(250,250,248,0.45)")}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
