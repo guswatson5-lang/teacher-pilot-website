@@ -66,7 +66,7 @@ export default function Testimonials() {
             >
               Real teachers.
               <br />
-              <span className="text-gradient-amber">Real results.</span>
+              <span className="text-gradient-cyan">Real results.</span>
             </h2>
           </div>
         </ScrollReveal>

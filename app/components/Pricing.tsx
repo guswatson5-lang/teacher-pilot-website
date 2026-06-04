@@ -84,7 +84,7 @@ export default function Pricing() {
             >
               Simple, honest pricing.
               <br />
-              <span className="text-gradient-amber">Start free today.</span>
+              <span className="text-gradient-cyan">Start free today.</span>
             </h2>
           </div>
         </ScrollReveal>

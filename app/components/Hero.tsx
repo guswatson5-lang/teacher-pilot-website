@@ -45,7 +45,7 @@ export default function Hero() {
       {/* Cinematic grain */}
       <div className="grain-overlay" />
 
-      {/* Ambient amber light from bottom */}
+      {/* Ambient cyan light from bottom */}
       <div
         className="absolute bottom-0 left-1/2 -translate-x-1/2 z-[2] pointer-events-none"
         style={{
@@ -85,7 +85,7 @@ export default function Hero() {
         >
           Mark smarter.
           <br />
-          <span className="text-gradient-amber">Plan faster.</span>
+          <span className="text-gradient-cyan">Plan faster.</span>
           <br />
           Report with confidence.
         </h1>
@@ -112,7 +112,7 @@ export default function Hero() {
             href="https://teacher-pilot.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-base px-8 py-4 rounded-full transition-all duration-300 amber-glow"
+            className="font-bold text-base px-8 py-4 rounded-full transition-all duration-300 cyan-glow"
             style={{ background: "#06B6D4", color: "#0F0F0F" }}
             onMouseEnter={(e) => {
               const el = e.currentTarget as HTMLAnchorElement;

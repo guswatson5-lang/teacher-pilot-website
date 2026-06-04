@@ -181,7 +181,7 @@ export default function Features() {
             >
               Everything a teacher needs.
               <br />
-              <span className="text-gradient-amber">{"Nothing they don't."}</span>
+              <span className="text-gradient-cyan">{"Nothing they don't."}</span>
             </h2>
           </div>
         </ScrollReveal>

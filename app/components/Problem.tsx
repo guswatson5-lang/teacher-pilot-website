@@ -35,7 +35,7 @@ export default function Problem() {
               }}
             >
               Teachers spend{" "}
-              <span className="text-gradient-amber">8+ hours a week</span>{" "}
+              <span className="text-gradient-cyan">8+ hours a week</span>{" "}
               on marking and reports.
             </h2>
             <p

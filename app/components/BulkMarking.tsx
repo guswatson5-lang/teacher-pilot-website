@@ -79,7 +79,7 @@ export default function BulkMarking() {
           >
             Mark an entire class set
             <br />
-            <span className="text-gradient-amber">at once.</span>
+            <span className="text-gradient-cyan">at once.</span>
           </h2>
         </ScrollReveal>
 

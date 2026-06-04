@@ -47,7 +47,7 @@ export default function FinalCTA() {
         }}
       />
 
-      {/* Amber radial glow */}
+      {/* Cyan radial glow */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -80,7 +80,7 @@ export default function FinalCTA() {
           >
             Give yourself back
             <br />
-            <span className="text-gradient-amber">your evenings.</span>
+            <span className="text-gradient-cyan">your evenings.</span>
           </h2>
         </ScrollReveal>
 
@@ -99,7 +99,7 @@ export default function FinalCTA() {
             href="https://teacher-pilot.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block font-bold text-lg px-10 py-5 rounded-full transition-all duration-300 amber-glow"
+            className="inline-block font-bold text-lg px-10 py-5 rounded-full transition-all duration-300 cyan-glow"
             style={{ background: "#06B6D4", color: "#0F0F0F" }}
             onMouseEnter={(e) => {
               const el = e.currentTarget as HTMLAnchorElement;

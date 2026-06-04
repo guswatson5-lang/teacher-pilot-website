@@ -70,13 +70,13 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* Amber glow */
-.amber-glow {
+/* Cyan glow */
+.cyan-glow {
   box-shadow: 0 0 40px rgba(6, 182, 212, 0.4), 0 0 80px rgba(6, 182, 212, 0.15);
 }
 
 /* Text gradient */
-.text-gradient-amber {
+.text-gradient-cyan {
   background: linear-gradient(135deg, #06B6D4 0%, #67E8F9 50%, #0891B2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

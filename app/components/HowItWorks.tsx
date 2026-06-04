@@ -64,7 +64,7 @@ export default function HowItWorks() {
             >
               Three steps.
               <br />
-              <span className="text-gradient-amber">Minutes, not hours.</span>
+              <span className="text-gradient-cyan">Minutes, not hours.</span>
             </h2>
           </div>
         </ScrollReveal>
