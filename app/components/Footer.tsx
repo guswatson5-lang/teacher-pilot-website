@@ -46,7 +46,7 @@ export default function Footer() {
               Pricing
             </Link>
             <a
-              href="mailto:hello@teacherpilot.com.au"
+              href="mailto:teacherpilotau@gmail.com"
               className="text-sm transition-colors duration-300"
               style={{ color: "rgba(250,250,248,0.4)" }}
               onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#FAFAF8")}
